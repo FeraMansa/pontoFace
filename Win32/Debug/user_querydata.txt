@@ -1,0 +1,11 @@
+2025-10-27 17:49:37 - SN=CP9L231460658
+user uid=2021	cardno=12345	pin=1	password=234	group=1	starttime=0	endtime=0	name=Gustavo	privilege=0	disable=0	verify=0
+
+----
+2025-10-27 17:58:21 - SN=CP9L231460658
+
+----
+2025-10-30 11:11:24 - SN=CP9L231460658
+user uid=2023	cardno=12345	pin=1	password=234	group=1	starttime=0	endtime=0	name=Gustavo	privilege=0	disable=0	verify=0
+
+----

@@ -1,0 +1,297 @@
+2025-10-23 16:27:55 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1002	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-23 17:05:35 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1001	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-23 17:26:17 - table=tabledata
+user uid=2021	cardno=12345	pin=1	password=234	group=1	starttime=0	endtime=0	name=Gustavo	privilege=0	disable=0	verify=0
+
+----
+2025-10-23 17:26:17 - table=rtstate
+time=2025-10-23 17:10:13	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-23 17:26:18 - table=rtlog
+time=2025-10-23 17:10:13	pin=1	cardno=12345	eventaddr=1	event=23	inoutstatus=0	verifytype=3	index=171	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-23 17:26:19 - table=rtstate
+time=2025-10-23 17:11:34	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-23 17:26:20 - table=rtlog
+time=2025-10-23 17:11:34	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=3	index=172	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-23 17:54:54 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1001	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-23 18:03:08 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=4	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-23 18:07:26 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1001	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-23 18:12:34 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=4	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-23 18:14:36 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1001	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-23 18:17:24 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1001	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-23 18:18:40 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1001	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-23 18:19:44 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1001	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-24 08:57:07 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1003	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-24 11:56:24 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1001	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-24 12:03:18 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1001	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-24 12:06:54 - table=tabledata
+errorlog errcode=D01E0001	errmsg=	dataorigin=cmd	cmdid=1001	additional=ewoJInBpbiI6CSIxIgp9
+
+----
+2025-10-24 16:48:17 - table=options
+~DeviceName=SpeedFace-V4L,MAC=00:17:61:12:c1:da,TransactionCount=0,~MaxAttLogCount=15,UserCount=1,~MaxUserCount=20,PhotoFunOn=0,~MaxUserPhotoCount=1000,FingerFunOn=0,FPVersion=10,~MaxFingerCount=100,FPCount=0,FaceFunOn=1,FaceVersion=39,~MaxFaceCount=2000,FaceCount=1,FvFunOn=0,FvVersion=3,~MaxFvCount=10,FvCount=0,PvFunOn=1,PvVersion=12,~MaxPvCount=50,PvCount=0,Language=80,IPAddress=10.1.1.201,~Platform=ZAM180_TFT,~OEMVendor=ZKTECO CO., LTD.,FWVersion=ZAM180-NF40VA-Ver3.4.16,PushVersion=Ver 2.0.33S-20220623,RegDeviceType=,VisilightFun=1,IRTempDetectionFunOn=,MaskDetectionFunOn=0,UserPicURLFunOn=1,VisualIntercomFunOn=0,VideoTID=,QRCodeDecryptFunList=,VideoProtocol=4,IsSupportQRcode=1,QRCodeEnable=1,SubcontractingUpgradeFunOn=1,RoomStatus=0
+----
+2025-10-24 17:07:01 - table=rtstate
+time=2025-10-24 16:48:55	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-24 17:07:02 - table=rtlog
+time=2025-10-24 16:48:55	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=173	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-24 17:07:03 - table=rtstate
+time=2025-10-24 17:01:55	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-24 17:07:04 - table=rtlog
+time=2025-10-24 17:01:55	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=174	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-24 17:11:43 - table=options
+~DeviceName=SpeedFace-V4L,MAC=00:17:61:12:c1:da,TransactionCount=0,~MaxAttLogCount=15,UserCount=1,~MaxUserCount=20,PhotoFunOn=0,~MaxUserPhotoCount=1000,FingerFunOn=0,FPVersion=10,~MaxFingerCount=100,FPCount=0,FaceFunOn=1,FaceVersion=39,~MaxFaceCount=2000,FaceCount=1,FvFunOn=0,FvVersion=3,~MaxFvCount=10,FvCount=0,PvFunOn=1,PvVersion=12,~MaxPvCount=50,PvCount=0,Language=80,IPAddress=10.1.1.201,~Platform=ZAM180_TFT,~OEMVendor=ZKTECO CO., LTD.,FWVersion=ZAM180-NF40VA-Ver3.4.16,PushVersion=Ver 2.0.33S-20220623,RegDeviceType=,VisilightFun=1,IRTempDetectionFunOn=,MaskDetectionFunOn=0,UserPicURLFunOn=1,VisualIntercomFunOn=0,VideoTID=,QRCodeDecryptFunList=,VideoProtocol=4,IsSupportQRcode=1,QRCodeEnable=1,SubcontractingUpgradeFunOn=1,RoomStatus=0
+----
+2025-10-24 17:12:31 - table=options
+~DeviceName=SpeedFace-V4L,MAC=00:17:61:12:c1:da,TransactionCount=0,~MaxAttLogCount=15,UserCount=1,~MaxUserCount=20,PhotoFunOn=0,~MaxUserPhotoCount=1000,FingerFunOn=0,FPVersion=10,~MaxFingerCount=100,FPCount=0,FaceFunOn=1,FaceVersion=39,~MaxFaceCount=2000,FaceCount=1,FvFunOn=0,FvVersion=3,~MaxFvCount=10,FvCount=0,PvFunOn=1,PvVersion=12,~MaxPvCount=50,PvCount=0,Language=80,IPAddress=10.1.1.201,~Platform=ZAM180_TFT,~OEMVendor=ZKTECO CO., LTD.,FWVersion=ZAM180-NF40VA-Ver3.4.16,PushVersion=Ver 2.0.33S-20220623,RegDeviceType=,VisilightFun=1,IRTempDetectionFunOn=,MaskDetectionFunOn=0,UserPicURLFunOn=1,VisualIntercomFunOn=0,VideoTID=,QRCodeDecryptFunList=,VideoProtocol=4,IsSupportQRcode=1,QRCodeEnable=1,SubcontractingUpgradeFunOn=1,RoomStatus=0
+----
+2025-10-24 17:12:43 - table=rtstate
+time=2025-10-24 17:12:37	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-24 17:12:44 - table=rtlog
+time=2025-10-24 17:12:37	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=175	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-27 17:39:08 - table=options
+~DeviceName=SpeedFace-V4L,MAC=00:17:61:12:c1:da,TransactionCount=0,~MaxAttLogCount=15,UserCount=1,~MaxUserCount=20,PhotoFunOn=0,~MaxUserPhotoCount=1000,FingerFunOn=0,FPVersion=10,~MaxFingerCount=100,FPCount=0,FaceFunOn=1,FaceVersion=39,~MaxFaceCount=2000,FaceCount=1,FvFunOn=0,FvVersion=3,~MaxFvCount=10,FvCount=0,PvFunOn=1,PvVersion=12,~MaxPvCount=50,PvCount=0,Language=80,IPAddress=10.1.1.201,~Platform=ZAM180_TFT,~OEMVendor=ZKTECO CO., LTD.,FWVersion=ZAM180-NF40VA-Ver3.4.16,PushVersion=Ver 2.0.33S-20220623,RegDeviceType=,VisilightFun=1,IRTempDetectionFunOn=,MaskDetectionFunOn=0,UserPicURLFunOn=1,VisualIntercomFunOn=0,VideoTID=,QRCodeDecryptFunList=,VideoProtocol=4,IsSupportQRcode=1,QRCodeEnable=1,SubcontractingUpgradeFunOn=1,RoomStatus=0
+----
+2025-10-27 17:58:41 - table=options
+~DeviceName=SpeedFace-V4L,MAC=00:17:61:12:c1:da,TransactionCount=0,~MaxAttLogCount=15,UserCount=1,~MaxUserCount=20,PhotoFunOn=0,~MaxUserPhotoCount=1000,FingerFunOn=0,FPVersion=10,~MaxFingerCount=100,FPCount=0,FaceFunOn=1,FaceVersion=39,~MaxFaceCount=2000,FaceCount=1,FvFunOn=0,FvVersion=3,~MaxFvCount=10,FvCount=0,PvFunOn=1,PvVersion=12,~MaxPvCount=50,PvCount=0,Language=80,IPAddress=10.1.1.201,~Platform=ZAM180_TFT,~OEMVendor=ZKTECO CO., LTD.,FWVersion=ZAM180-NF40VA-Ver3.4.16,PushVersion=Ver 2.0.33S-20220623,RegDeviceType=,VisilightFun=1,IRTempDetectionFunOn=,MaskDetectionFunOn=0,UserPicURLFunOn=1,VisualIntercomFunOn=0,VideoTID=,QRCodeDecryptFunList=,VideoProtocol=4,IsSupportQRcode=1,QRCodeEnable=1,SubcontractingUpgradeFunOn=1,RoomStatus=0
+----
+2025-10-29 15:06:58 - table=rtstate
+time=2025-10-29 15:04:46	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-29 15:06:59 - table=rtlog
+time=2025-10-29 15:04:46	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=178	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-30 11:07:49 - table=rtstate
+time=2025-10-30 11:07:37	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-30 11:07:50 - table=rtlog
+time=2025-10-30 11:07:37	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=179	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-30 11:07:58 - table=rtstate
+time=2025-10-30 11:07:47	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-30 11:07:59 - table=rtlog
+time=2025-10-30 11:07:46	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=180	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-30 11:10:17 - table=options
+~DeviceName=SpeedFace-V4L,MAC=00:17:61:12:c1:da,TransactionCount=0,~MaxAttLogCount=15,UserCount=1,~MaxUserCount=20,PhotoFunOn=0,~MaxUserPhotoCount=1000,FingerFunOn=0,FPVersion=10,~MaxFingerCount=100,FPCount=0,FaceFunOn=1,FaceVersion=39,~MaxFaceCount=2000,FaceCount=1,FvFunOn=0,FvVersion=3,~MaxFvCount=10,FvCount=0,PvFunOn=1,PvVersion=12,~MaxPvCount=50,PvCount=0,Language=80,IPAddress=10.1.1.201,~Platform=ZAM180_TFT,~OEMVendor=ZKTECO CO., LTD.,FWVersion=ZAM180-NF40VA-Ver3.4.16,PushVersion=Ver 2.0.33S-20220623,RegDeviceType=,VisilightFun=1,IRTempDetectionFunOn=,MaskDetectionFunOn=0,UserPicURLFunOn=1,VisualIntercomFunOn=0,VideoTID=,QRCodeDecryptFunList=,VideoProtocol=4,IsSupportQRcode=1,QRCodeEnable=1,SubcontractingUpgradeFunOn=1,RoomStatus=0
+----
+2025-10-30 11:10:32 - table=rtstate
+time=2025-10-30 11:10:22	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-30 11:10:33 - table=rtlog
+time=2025-10-30 11:10:21	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=181	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-30 11:10:52 - table=rtstate
+time=2025-10-30 11:10:42	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-30 11:10:53 - table=rtlog
+time=2025-10-30 11:10:42	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=182	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-30 11:11:01 - table=rtstate
+time=2025-10-30 11:10:51	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-30 11:11:02 - table=rtlog
+time=2025-10-30 11:10:51	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=183	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-31 10:02:58 - table=rtstate
+time=2025-10-30 16:47:05	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-31 10:02:59 - table=rtlog
+time=2025-10-30 16:47:05	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=184	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-31 10:03:00 - table=rtstate
+time=2025-10-30 16:47:14	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-31 10:03:01 - table=rtlog
+time=2025-10-30 16:47:14	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=185	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-10-31 10:03:02 - table=rtstate
+time=2025-10-30 16:55:54	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-10-31 10:03:03 - table=rtlog
+time=2025-10-30 16:55:53	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=186	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-07 11:38:47 - table=rtstate
+time=2025-10-30 16:56:03	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-07 11:38:48 - table=rtlog
+time=2025-10-30 16:56:03	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=187	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-07 11:38:49 - table=rtstate
+time=2025-11-06 14:15:22	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-07 11:38:50 - table=rtlog
+time=2025-11-06 14:15:22	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=188	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-07 11:38:51 - table=rtstate
+time=2025-11-06 14:15:38	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-07 11:38:54 - table=rtlog
+time=2025-11-06 14:15:38	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=189	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-07 11:38:55 - table=rtstate
+time=2025-11-06 14:31:18	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-07 11:38:56 - table=rtlog
+time=2025-11-06 14:31:18	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=190	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-07 11:39:45 - table=rtstate
+time=2025-11-07 11:39:22	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-07 11:39:46 - table=rtlog
+time=2025-11-07 11:39:22	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=191	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-07 11:40:05 - table=rtstate
+time=2025-11-07 11:39:36	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-07 11:40:13 - table=rtlog
+time=2025-11-07 11:39:36	pin=0	cardno=0	eventaddr=1	event=27	inoutstatus=0	verifytype=2	index=192	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-07 11:40:14 - table=rtstate
+time=2025-11-07 11:39:51	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-07 11:40:15 - table=rtlog
+time=2025-11-07 11:39:51	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=193	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-17 10:01:28 - table=options
+~DeviceName=SpeedFace-V4L,MAC=00:17:61:12:c1:da,TransactionCount=0,~MaxAttLogCount=15,UserCount=1,~MaxUserCount=20,PhotoFunOn=0,~MaxUserPhotoCount=1000,FingerFunOn=0,FPVersion=10,~MaxFingerCount=100,FPCount=0,FaceFunOn=1,FaceVersion=39,~MaxFaceCount=2000,FaceCount=1,FvFunOn=0,FvVersion=3,~MaxFvCount=10,FvCount=0,PvFunOn=1,PvVersion=12,~MaxPvCount=50,PvCount=0,Language=80,IPAddress=10.1.1.201,~Platform=ZAM180_TFT,~OEMVendor=ZKTECO CO., LTD.,FWVersion=ZAM180-NF40VA-Ver3.4.16,PushVersion=Ver 2.0.33S-20220623,RegDeviceType=,VisilightFun=1,IRTempDetectionFunOn=,MaskDetectionFunOn=0,UserPicURLFunOn=1,VisualIntercomFunOn=0,VideoTID=,QRCodeDecryptFunList=,VideoProtocol=4,IsSupportQRcode=1,QRCodeEnable=1,SubcontractingUpgradeFunOn=1,RoomStatus=0
+----
+2025-11-17 10:01:28 - table=rtstate
+time=2025-11-12 10:41:25	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-17 10:01:30 - table=rtlog
+time=2025-11-12 10:41:25	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=200	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-17 10:01:31 - table=rtstate
+time=2025-11-12 10:41:34	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-18 15:12:36 - table=rtlog
+time=2025-11-12 10:41:34	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=201	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-18 15:12:37 - table=rtstate
+time=2025-11-12 10:41:48	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-18 15:12:38 - table=rtlog
+time=2025-11-12 10:41:48	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=202	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-18 15:12:39 - table=rtstate
+time=2025-11-12 17:38:19	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-18 15:12:40 - table=rtlog
+time=2025-11-12 17:38:19	pin=0	cardno=0	eventaddr=1	event=224	inoutstatus=2	verifytype=200	index=203	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-18 15:12:41 - table=rtstate
+time=2025-11-12 17:38:28	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-18 15:12:42 - table=rtlog
+time=2025-11-12 17:38:28	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=204	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
+2025-11-18 15:12:43 - table=rtstate
+time=2025-11-12 17:38:38	sensor=02	relay=00	alarm=0100000000000000	door=01
+
+----
+2025-11-18 15:12:44 - table=rtlog
+time=2025-11-12 17:38:38	pin=1	cardno=0	eventaddr=1	event=3	inoutstatus=0	verifytype=15	index=205	sitecode=0	linkid=0	maskflag=0	temperature=0	convtemperature=0
+
+----
