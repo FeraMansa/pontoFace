@@ -12,7 +12,7 @@ uses
   FireDAC.Stan.Option, FireDAC.Stan.Error, FireDAC.UI.Intf, FireDAC.Phys.Intf,
   FireDAC.Stan.Def, FireDAC.Stan.Pool, FireDAC.Stan.Async, FireDAC.Phys,
   FireDAC.Phys.ODBC, FireDAC.Phys.ODBCDef, FireDAC.VCLUI.Wait, Data.DB,
-  FireDAC.Comp.Client; // <- ADICIONADO: para Base64
+  FireDAC.Comp.Client, FireDAC.Stan.Param; // <- ADICIONADO: para Base64
 
 type
   TDeviceInfo = class
@@ -76,6 +76,7 @@ type
     procedure HandleDeviceCommandEndpoint(ARequestInfo: TIdHTTPRequestInfo; AResponseInfo: TIdHTTPResponseInfo);
     function GetRTDataStr: string;
     procedure SavePhotoFromStream(ARequestInfo: TIdHTTPRequestInfo; const SaveFolder: string);
+    procedure SaveOrUpdateEquipment(const SN, RegistryCode, RemoteIP: string; Port: Integer);
 
   public
   end;
@@ -127,6 +128,58 @@ procedure TForm4.Log(const S: string);
 begin
   MemoLog.Lines.Add(FormatDateTime('yyyy-mm-dd hh:nn:ss', Now) + ' - ' + S);
   Application.ProcessMessages;
+end;
+
+procedure TForm4.SaveOrUpdateEquipment(const SN, RegistryCode, RemoteIP: string; Port: Integer);
+var
+  qry: TFDQuery;
+begin
+  if SN = '' then
+    Exit;
+
+  qry := TFDQuery.Create(nil);
+  try
+    qry.Connection := FDConnection1;
+
+    if not FDConnection1.Connected then
+    begin
+      try
+        FDConnection1.Connected := True;
+      except
+        on E: Exception do
+        begin
+          Log('Erro ao conectar ao banco: ' + E.Message);
+          Exit;
+        end;
+      end;
+    end;
+
+    qry.SQL.Text :=
+      'insert into "SCH"."EQUIPAMENTO" ' +
+      '  ("NUM_SERIE", "ENDERECO_IP", "PORTA", "COD_REGISTRO", "ULTIMO_CONTATO", "ONLINE") ' +
+      'values (:sn, :ip, :port, :reg, now(), true) ' +
+      'on conflict ("NUM_SERIE") do update set ' +
+      '  "ENDERECO_IP" = EXCLUDED."ENDERECO_IP", ' +
+      '  "PORTA" = EXCLUDED."PORTA", ' +
+      '  "COD_REGISTRO" = EXCLUDED."COD_REGISTRO", ' +
+      '  "ULTIMO_CONTATO" = now(), ' +
+      '  "ONLINE" = true';
+
+    qry.Params.ParamByName('sn').AsString := SN;
+    qry.Params.ParamByName('ip').AsString := RemoteIP;
+    qry.Params.ParamByName('port').AsInteger := Port;
+    qry.Params.ParamByName('reg').AsString := RegistryCode;
+
+    try
+      qry.ExecSQL;
+      Log('Equipamento salvo/atualizado no banco: ' + SN + ' (' + RemoteIP + ')');
+    except
+      on E: Exception do
+        Log('Erro ao salvar equipamento: ' + E.Message);
+    end;
+  finally
+    qry.Free;
+  end;
 end;
 
 function TForm4.EnsureDevice(const SN: string): TDeviceInfo;
@@ -388,6 +441,7 @@ var
 begin
   SN := ARequestInfo.Params.Values['SN'];
   dev := EnsureDevice(SN);
+  SaveOrUpdateEquipment(SN, dev.RegistryCode, ARequestInfo.RemoteIP, StrToIntDef(edtPort.Text, 8011));
   AResponseInfo.ResponseNo := 200;
   AResponseInfo.ContentType := 'text/plain';
   AResponseInfo.ContentText := 'RegistryCode=' + dev.RegistryCode + sLineBreak;
@@ -402,6 +456,7 @@ var
 begin
   SN := ARequestInfo.Params.Values['SN'];
   dev := EnsureDevice(SN);
+  SaveOrUpdateEquipment(SN, dev.RegistryCode, ARequestInfo.RemoteIP, StrToIntDef(edtPort.Text, 8011));
   Log(Format('/iclock/getrequest recebido de %s (fila=%d)', [SN, dev.Commands.Count]));
   if dev.Commands.Count > 0 then
   begin
@@ -422,6 +477,8 @@ end;
 procedure TForm4.HandlePush(ARequestInfo: TIdHTTPRequestInfo; AResponseInfo: TIdHTTPResponseInfo);
 begin
   Log('/iclock/push solicitado por ' + ARequestInfo.Params.Values['SN']);
+  SaveOrUpdateEquipment(ARequestInfo.Params.Values['SN'], EnsureDevice(ARequestInfo.Params.Values['SN']).RegistryCode,
+    ARequestInfo.RemoteIP, StrToIntDef(edtPort.Text, 8011));
   AResponseInfo.ResponseNo := 200;
   AResponseInfo.ContentType := 'text/plain';
   AResponseInfo.ContentText :=
